@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Jogos - Michel Detilli</title>
+<style>
+body{margin:0;background:#0b1220;color:#e5e7eb;font-family:system-ui,Segoe UI,Roboto}
+header{padding:16px;background:#111827;position:sticky;top:0;z-index:10}
+h1{margin:0;font-size:20px;display:flex;align-items:center;gap:8px}
+.badge{background:#374151;padding:2px 8px;border-radius:12px;font-size:12px}
+#busca{width:100%;margin-top:10px;padding:12px;border-radius:12px;border:1px solid #374151;background:#0f172a;color:#fff;font-size:15px;box-sizing:border-box}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;padding:14px}
+.card{background:#1f2937;border-radius:16px;padding:12px;text-align:center;text-decoration:none;color:inherit;display:block}
+.icon{width:64px;height:64px;margin:0 auto 8px;border-radius:14px;background:linear-gradient(135deg,#6366f1,#8b5cf6);display:flex;align-items:center;justify-content:center;font-size:30px}
+.nome{font-size:13px;color:#cbd5e1;min-height:34px}
+.card:active{transform:scale(.97)}
+</style>
+</head>
+<body>
+<header>
+<h1>🎮 Jogos <span class="badge">Michel Detilli</span></h1>
+<input id="busca" placeholder="Buscar jogo...">
+</header>
+<div class="grid" id="grid">
+<a class="card" href="https://detiillimichel-max.github.io/suko-de-fruta/" target="_blank">
+  <div class="icon">🍓</div>
+  <div class="nome">Suko de Fruta</div>
+</a>
+<a class="card" href="https://detiillimichel-max.github.io/hist-rias-biblicas/" target="_blank">
+  <div class="icon">📖</div>
+  <div class="nome">Histórias Bíblicas</div>
+</a>
+<a class="card" href="https://detiillimichel-max.github.io/palavra-da-biblia/" target="_blank">
+  <div class="icon">📘</div>
+  <div class="nome">Palavra da Bíblia</div>
+</a>
+<a class="card" href="https://detiillimichel-max.github.io/show-b-blico/" target="_blank">
+  <div class="icon">📖</div>
+  <div class="nome">Show Bíblico</div>
+</a>
+<a class="card" href="https://detiillimichel-max.github.io/trilhasb-blicas/" target="_blank">
+  <div class="icon">📗</div>
+  <div class="nome">Trilhas Bíblicas</div>
+</a>
+<a class="card" href="https://detiillimichel-max.github.io/bubble-shooter/" target="_blank">
+  <div class="icon">🔵</div>
+  <div class="nome">Bubble Shooter</div>
+</a>
+<a class="card" href="https://detiillimichel-max.github.io/bubble-mini-/" target="_blank">
+  <div class="icon">🟣</div>
+  <div class="nome">Bubble Mini</div>
+</a>
+<a class="card" href="https://detiillimichel-max.github.io/vaga-livre-/" target="_blank">
+  <div class="icon">🚗</div>
+  <div class="nome">Vaga Livre</div>
+</a>
+<a class="card" href="https://detiillimichel-max.github.io/quebra-cabe-a-/" target="_blank">
+  <div class="icon">🧩</div>
+  <div class="nome">Quebra-Cabeça</div>
+</a>
+<a class="card" href="https://detiillimichel-max.github.io/parafuso-legal/" target="_blank">
+  <div class="icon">🔩</div>
+  <div class="nome">Parafuso Legal</div>
+</a>
+<a class="card" href="https://detiillimichel-max.github.io/encaixa-pe-as/" target="_blank">
+  <div class="icon">🧩</div>
+  <div class="nome">Encaixa Peças</div>
+</a>
+<a class="card" href="https://detiillimichel-max.github.io/tubo-becker/" target="_blank">
+  <div class="icon">🧪</div>
+  <div class="nome">Tubo Becker</div>
+</a>
+<a class="card" href="https://detiillimichel-max.github.io/liga-palavras/" target="_blank">
+  <div class="icon">🔤</div>
+  <div class="nome">Liga Palavras</div>
+</a>
+<a class="card" href="https://detiillimichel-max.github.io/letroso-cross/" target="_blank">
+  <div class="icon">🔡</div>
+  <div class="nome">Letroso Cross</div>
+</a>
+<a class="card" href="https://detiillimichel-max.github.io/trilha-serpentina-numerada/" target="_blank">
+  <div class="icon">🐍</div>
+  <div class="nome">Trilha Serpentina</div>
+</a>
+<a class="card" href="https://detiillimichel-max.github.io/tabuleiro-jogos/" target="_blank">
+  <div class="icon">🎲</div>
+  <div class="nome">Tabuleiro Jogos</div>
+</a>
+<a class="card" href="https://detiillimichel-max.github.io/tabuleiro-move/" target="_blank">
+  <div class="icon">🎯</div>
+  <div class="nome">Tabuleiro Move</div>
+</a>
+<a class="card" href="https://detiillimichel-max.github.io/ache-a-diferente/" target="_blank">
+  <div class="icon">🔍</div>
+  <div class="nome">Ache a Diferente</div>
+</a>
+<a class="card" href="https://detiillimichel-max.github.io/figurinhas-game/" target="_blank">
+  <div class="icon">🖼️</div>
+  <div class="nome">Figurinhas</div>
+</a>
+<a class="card" href="https://detiillimichel-max.github.io/memoria-emojs/" target="_blank">
+  <div class="icon">🧠</div>
+  <div class="nome">Memória Emojis</div>
+</a>
+<a class="card" href="https://detiillimichel-max.github.io/labirinto-premiado/" target="_blank">
+  <div class="icon">🌀</div>
+  <div class="nome">Labirinto Premiado</div>
+</a>
+<a class="card" href="https://detiillimichel-max.github.io/Capchajogos-depp/" target="_blank">
+  <div class="icon">🤖</div>
+  <div class="nome">Captcha Jogos</div>
+</a>
+<a class="card" href="https://detiillimichel-max.github.io/calculadora-ninja/" target="_blank">
+  <div class="icon">🧮</div>
+  <div class="nome">Calculadora Ninja</div>
+</a>
+<a class="card" href="https://detiillimichel-max.github.io/dama-xadres/" target="_blank">
+  <div class="icon">♟️</div>
+  <div class="nome">Dama / Xadrez</div>
+</a>
+<a class="card" href="https://detiillimichel-max.github.io/Raiz-truco/" target="_blank">
+  <div class="icon">🃏</div>
+  <div class="nome">Raiz Truco</div>
+</a>
+<a class="card" href="https://detiillimichel-max.github.io/ARCADE-HUB/" target="_blank">
+  <div class="icon">🕹️</div>
+  <div class="nome">Arcade Hub</div>
+</a>
+<a class="card" href="https://detiillimichel-max.github.io/asteroide-no-espaco/" target="_blank">
+  <div class="icon">🚀</div>
+  <div class="nome">Asteroide</div>
+</a>
+<a class="card" href="https://detiillimichel-max.github.io/Mariu-cidade/" target="_blank">
+  <div class="icon">🏙️</div>
+  <div class="nome">Mariu Cidade</div>
+</a>
+<a class="card" href="https://detiillimichel-max.github.io/Nota-Adesiva-Corrida/" target="_blank">
+  <div class="icon">📝</div>
+  <div class="nome">Nota Adesiva</div>
+</a>
+<a class="card" href="https://detiillimichel-max.github.io/Snake-Neon/" target="_blank">
+  <div class="icon">🐍</div>
+  <div class="nome">Snake Neon</div>
+</a>
+<a class="card" href="https://detiillimichel-max.github.io/1Captch-Game/" target="_blank">
+  <div class="icon">✅</div>
+  <div class="nome">1Captcha</div>
+</a>
+<a class="card" href="https://detiillimichel-max.github.io/Jogo-crinca-velha/" target="_blank">
+  <div class="icon">⭕</div>
+  <div class="nome">Jogo da Velha</div>
+</a>
+<a class="card" href="https://detiillimichel-max.github.io/Corrida-de-Carrinho/" target="_blank">
+  <div class="icon">🏎️</div>
+  <div class="nome">Corrida Carrinho</div>
+</a>
+<a class="card" href="https://detiillimichel-max.github.io/Doodle-Pulo/" target="_blank">
+  <div class="icon">🦘</div>
+  <div class="nome">Doodle Pulo</div>
+</a>
+<a class="card" href="https://detiillimichel-max.github.io/AdivinhaEmoji/" target="_blank">
+  <div class="icon">😊</div>
+  <div class="nome">Adivinha Emoji</div>
+</a>
+<a class="card" href="https://detiillimichel-max.github.io/central-jogos/elo-palavras/" target="_blank">
+  <div class="icon">🔤</div>
+  <div class="nome">Elo Palavras</div>
+</a>
+<a class="card" href="https://detiillimichel-max.github.io/Jogos-Sonnet-Jogos/" target="_blank">
+  <div class="icon">🎮</div>
+  <div class="nome">Jogos Sonnet</div>
+</a>
+<a class="card" href="https://detiillimichel-max.github.io/Domina/" target="_blank">
+  <div class="icon">🎲</div>
+  <div class="nome">Domina</div>
+</a>
+<a class="card" href="https://quiz-pergunta.vercel.app" target="_blank">
+  <div class="icon">❓</div>
+  <div class="nome">Quiz Pergunta</div>
+</a>
+<a class="card" href="https://detiillimichel-max.github.io/Quiz-Master/" target="_blank">
+  <div class="icon">❔</div>
+  <div class="nome">Quiz Master</div>
+</a>
+<a class="card" href="https://detiillimichel-max.github.io/Charada-deep-game/" target="_blank">
+  <div class="icon">💡</div>
+  <div class="nome">Charada Deep</div>
+</a>
+<a class="card" href="https://detiillimichel-max.github.io/jogo-dino/" target="_blank">
+  <div class="icon">🦖</div>
+  <div class="nome">Jogo Dino</div>
+</a>
+<a class="card" href="https://detiillimichel-max.github.io/Jogo-dos-7-Erros/" target="_blank">
+  <div class="icon">👀</div>
+  <div class="nome">Jogo 7 Erros</div>
+</a>
+</div>
+<script>
+const busca=document.getElementById('busca');
+const cards=[...document.querySelectorAll('.card')];
+busca.oninput=()=>{
+ const v=busca.value.toLowerCase();
+ cards.forEach(c=>{
+   const t=c.querySelector('.nome').textContent.toLowerCase();
+   c.style.display=t.includes(v)?'block':'none';
+ });
+};
+</script>
+</body>
+</html>
